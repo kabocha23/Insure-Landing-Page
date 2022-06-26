@@ -1,12 +1,28 @@
 .navbar-container {
     display: flex;
-    height: 100px;
+    height: 75px;
     margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 75px;
     border-bottom: 1px solid hsl(0, 0%, 80%);
     max-width: 1280px;
+}
+
+
+/* insure logo */
+.navbar-brand {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%; 
+    width: 20%;
+    min-width: 210px;
+}
+.navbar-brand img {
+    cursor: pointer;
+    height: 25%;
+    margin-right: auto;
 }
 
 
@@ -21,7 +37,8 @@
 .nav-menu-fs {
     height: 100%; 
     position: relative;
-    margin-left: 30px;
+    margin-left: auto;
+    margin-right: 10%;
 }
 .nav-menu-fs-sub {
     display: flex;
@@ -31,66 +48,42 @@
 }
 .nav-menu-fs-sub a {
     text-decoration: none;
+    font-family: 'Karla', sans-serif;
     margin-right: 25px;
     color: hsl(219, 9%, 45%);
     font-weight: bold;
 }
 .nav-menu-fs-sub a:hover {
     color: hsl(219, 9%, 20%);
-    border-bottom: 5px solid hsl(25, 100%, 90%);
-    transition: border-bottom 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
 
-
-/* insure logo */
-.navbar-brand {
-    cursor: pointer;
-    height: 100%; 
-    position: relative;
-    width: 20%;
-    min-width: 210px;
-}
-.navbar-brand img {
-    cursor: pointer;
-    height: 25%;
-    margin: auto;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-}
 
 
 @media (max-width: 900px) {
     .toggle-button {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         height: 100%; 
         position: relative;
-        width: 10%;
+        width: 75px;
         min-width: 50px;
+        margin-left: auto;
     }
     .toggle-button button {
-        position: absolute;
-        top: 50%;
-        bottom: 0%;
-        left: 20px;
-        right: 0%;
         border: 0;
         height: 40px;
         width: 40px;
-        padding: 0.5rem;
-        border-radius: 10%;
         background-color: transparent;
         cursor: pointer;
-        transition: background-color 0.4s ease-in-out;
-        transform: translateY(-50%);
         font-weight: bold;
         font-size: 15px;
         color: hsl(219, 9%, 45%);
     }
     .toggle-button button:hover {
-        background-color: hsl(25, 100%, 90%);
+        border: 1px solid black;
+        transition: border 0.4s ease-in-out;
     }
 
 
@@ -123,6 +116,7 @@
     }
     .nav-menu li a {
         text-decoration: none;
+        font-family: 'Karla', sans-serif;
         color: hsl(219, 9%, 45%);
         font-weight: bold;
         width: 100%;
@@ -149,13 +143,13 @@
 @media (max-width: 500px) {
     .navbar-container {
         display: flex;
-        height: 55px;
+        height: 75px;
         margin-bottom: 0%;
         border-bottom: 0px;
     }
 
     .toggle-button button {
-        left: 10px;
+        right: 20px;
     }
     .navbar-brand {
         height: 100%;
@@ -163,9 +157,9 @@
     }
     .navbar-brand img {
         cursor: pointer;
-        height: 30%;
+        height: 25%;
         margin-top: auto;
-        margin-left: 10px;
+        margin-left: 20px;
         margin-bottom: auto;
         position: absolute;
         top: 0px;

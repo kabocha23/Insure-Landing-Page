@@ -1,0 +1,10 @@
+.footer-container {
+    height: 500px;
+    background-color: purple;
+}
+
+.footer-content {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}

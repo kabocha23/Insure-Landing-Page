@@ -13,9 +13,6 @@ const Navbar = () => {
 
     return(
         <div className='navbar-container'>
-            <div className='toggle-button'>
-                <button onClick={toggleIsNav}>☰</button>
-            </div>
             <div className={isNavExpanded ? 'nav-menu expanded' : 'nav-menu'}>
                 <ul>
                     <li><a href='#'>HOW WE WORK</a></li>
@@ -34,6 +31,14 @@ const Navbar = () => {
                     <a href='#'>ACCOUNT</a>
                     <button><a href='#'>VIEW PLANS</a></button>
                 </div>                
+            </div>
+            <div className='toggle-button'>
+                <button onClick={toggleIsNav}>
+                    {isNavExpanded == true ?
+                        'X' :
+                        '☰'
+                    }
+                </button>
             </div>
         </div>
     )
