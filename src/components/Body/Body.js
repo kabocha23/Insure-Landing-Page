@@ -15,6 +15,7 @@ const Body = () => {
                     <div className='body-intro-text'>
                         <h1>Humanizing your insurance.</h1>
                         <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
+                        <button><a href='#'>VIEW PLANS</a></button>
                     </div>
                     <div className='body-intro-img'>
                         <img src={familyImg}></img>
@@ -27,17 +28,17 @@ const Body = () => {
                     <div className='body-different-pros'>
                         <img src={boltIcon}></img>
                         <h2>Snappy Process</h2>
-                        <p></p>
+                        <p>Our application process can be completed in minutes, not hours. Don't get stuck filling in tedious forms.</p>
                     </div>
                     <div className='body-different-pros'>
                         <img src={cashIcon}></img>
                         <h2>Affordable Prices</h2>
-                        <p></p>
+                        <p>We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
                     </div>
                     <div className='body-different-pros'>
                         <img src={personIcon}></img>
                         <h2>People First</h2>
-                        <p></p>
+                        <p>Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it.</p>
                     </div>
                 </div>
                 <div>
