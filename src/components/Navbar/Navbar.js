@@ -21,24 +21,26 @@ const Navbar = () => {
                     <li><button><a href='#'>VIEW PLANS</a></button></li>                   
                 </ul>
             </div>
-            <div className='navbar-brand'>
-                <img src={brandLogo} alt='brand-logo'></img>
-            </div>
-            <div className='nav-menu-fs'>
-                <div className='nav-menu-fs-sub'>
-                    <a href='#'>HOW WE WORK</a>
-                    <a href='#'>BLOG</a>
-                    <a href='#'>ACCOUNT</a>
-                    <button><a href='#'>VIEW PLANS</a></button>
-                </div>                
-            </div>
-            <div className='toggle-button'>
-                <button onClick={toggleIsNav}>
-                    {isNavExpanded == true ?
-                        'X' :
-                        '☰'
-                    }
-                </button>
+            <div className='navbar-sub'>
+                <div className='navbar-brand'>
+                    <img src={brandLogo} alt='brand-logo'></img>
+                </div>
+                <div className='nav-menu-fs'>
+                    <div className='nav-menu-fs-sub'>
+                        <a href='#'>HOW WE WORK</a>
+                        <a href='#'>BLOG</a>
+                        <a href='#'>ACCOUNT</a>
+                        <button><a href='#'>VIEW PLANS</a></button>
+                    </div>                
+                </div>
+                <div className='toggle-button'>
+                    <button onClick={toggleIsNav}>
+                        {isNavExpanded == true ?
+                            'X' :
+                            '☰'
+                        }
+                    </button>
+                </div>
             </div>
         </div>
     )

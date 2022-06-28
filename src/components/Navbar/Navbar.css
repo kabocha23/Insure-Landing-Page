@@ -1,14 +1,19 @@
 .navbar-container {
     display: flex;
     height: 60px;
+    width: 100%;
     margin-top: 0px;
-    margin-left: auto;
-    margin-right: auto;
     border-bottom: 1px solid hsl(0, 0%, 80%);
-    max-width: 1280px;
     font-size: 75%;
 }
 
+.navbar-sub {
+    display: flex;
+    width: 80%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* insure logo */
 .navbar-brand {
@@ -37,10 +42,11 @@
 
 /* navbar menu not collapsed */
 .nav-menu-fs {
-    height: 100%; 
+    height: 100%;
+    width: 50%;
     position: relative;
     margin-left: auto;
-    margin-right: 5%;
+    margin-right: 0;
 }
 .nav-menu-fs-sub {
     display: flex;
@@ -49,10 +55,10 @@
     align-items: center;
 }
 .nav-menu-fs-sub a {
-    width: 8em;
+    width: 100px;
     text-align: center;
     text-decoration: none;
-    color: hsl(219, 9%, 45%);
+    color: hsl(273, 4%, 51%);
     font-family: 'Karla', sans-serif;
     font-weight: bold;
 }
@@ -61,8 +67,22 @@
     transition: color 0.2s ease-in-out;
 }
 .nav-menu-fs-sub button {
-    background-color: white;
+    height: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: transparent;
 }
+.nav-menu-fs-sub button a {
+    margin-left: 10px;
+    margin-right: 10px;    
+}
+.nav-menu-fs-sub button:hover {
+    background-color: hsl(270, 9%, 17%);
+}
+.nav-menu-fs-sub button a:hover {
+    color: white;
+}
+
 
 
 @media (max-width: 900px) {

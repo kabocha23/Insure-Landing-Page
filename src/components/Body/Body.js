@@ -41,12 +41,14 @@ const Body = () => {
                         <p>Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it.</p>
                     </div>
                 </div>
-                <div>
-
-                </div>
             </div>
             <div className='body-find-out'>
-
+                <div className='body-find-out-text'>
+                    <p>Find out more about how we work</p>
+                </div>
+                <div className='body-find-out-btn'>
+                    <button><a href='#'>HOW WE WORK</a></button>
+                </div>
             </div>
         </div>
     )
