@@ -18,7 +18,7 @@ const Navbar = () => {
                     <li><a href='#'>HOW WE WORK</a></li>
                     <li><a href='#'>BLOG</a></li>
                     <li><a href='#'>ACCOUNT</a></li>
-                    <li><button><a href='#'>VIEW PLANS</a></button></li>                   
+                    <li><a href='#'>VIEW PLANS</a></li>                   
                 </ul>
             </div>
             <div className='navbar-sub'>
@@ -30,7 +30,7 @@ const Navbar = () => {
                         <a href='#'>HOW WE WORK</a>
                         <a href='#'>BLOG</a>
                         <a href='#'>ACCOUNT</a>
-                        <button><a href='#'>VIEW PLANS</a></button>
+                        <a href='#' id='view-plans-btn'>VIEW PLANS</a>
                     </div>                
                 </div>
                 <div className='toggle-button'>
