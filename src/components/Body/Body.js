@@ -15,7 +15,7 @@ const Body = () => {
                     <div className='body-intro-text'>
                         <h1>Humanizing your insurance.</h1>
                         <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
-                        <button><a href='#'>VIEW PLANS</a></button>
+                        <a href='#' id='view-plans-btn2'><span>VIEW PLANS</span></a>
                     </div>
                     <div className='body-intro-img'>
                         <img src={familyImg}></img>

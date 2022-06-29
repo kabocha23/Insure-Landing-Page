@@ -30,7 +30,7 @@ const Navbar = () => {
                         <a href='#'>HOW WE WORK</a>
                         <a href='#'>BLOG</a>
                         <a href='#'>ACCOUNT</a>
-                        <a href='#' id='view-plans-btn'>VIEW PLANS</a>
+                        <a href='#' id='view-plans-btn'><span>VIEW PLANS</span></a>
                     </div>                
                 </div>
                 <div className='toggle-button'>

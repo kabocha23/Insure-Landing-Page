@@ -36,29 +36,29 @@
     margin-left: auto;
     margin-right: auto;
 }
-.body-intro-text button {
+#view-plans-btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 30px;
+    width: 100px;
     margin-left: 10px;
     margin-right: 10px;
+    text-decoration: none;;
+    color: hsl(273, 4%, 51%);
+    font-family: 'Karla', sans-serif;
+    font-weight: bold;
     background-color: transparent;
-    border: white;
+    border: 2px solid hsl(270, 9%, 17%);
     cursor: pointer;
 }
-.body-intro-text button a {
-    text-decoration: none;
-    font-size: 10px;
-    color: white;
-    margin-left: 10px;
-    margin-right: 10px;    
-}
-.body-intro-text button:hover {
-    background-color: white;
+#view-plans-btn2:hover {
+    background-color: hsl(270, 9%, 17%);
     transition: background-color 0.4s ease-in-out;
-}
-.body-intro-text button a:hover {
     color: white;
     transition: color 0.4s ease-in-out;
 }
+
 
 /* 'We're different' section */
 .body-different {
@@ -82,16 +82,11 @@
 
 
 .body-find-out {
-    height: 200px;
+    height: 250px;
     width: 80%;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-    background-color: hsl(141, 25%, 20%);
-}
-
-
-
-.body-find-out {
-
+    margin-bottom: 100px;
+    background-color: hsl(256, 26%, 20%);
 }

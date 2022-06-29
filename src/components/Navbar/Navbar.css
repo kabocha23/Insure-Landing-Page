@@ -67,21 +67,24 @@
     transition: color 0.2s ease-in-out;
 }
 #view-plans-btn {
-    /* height: 50%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
     margin-left: 10px;
     margin-right: 10px;
+    color: hsl(256, 26%, 20%);
     background-color: transparent;
-    border: 2px solid hsl(270, 9%, 17%);
+    border: 2px solid hsl(256, 26%, 20%);
     cursor: pointer;
 }
 #view-plans-btn:hover {
-    background-color: hsl(270, 9%, 17%);
-    transition: background-color 0.4s ease-in-out;
-/* }
-.nav-menu-fs-sub button a:hover { */
+    background-color: hsl(256, 26%, 20%);
+    transition: background-color 0.2s ease-in-out;
     color: white;
-    transition: color 0.4s ease-in-out;
+    transition: color 0.2s ease-in-out;
 }
+
 
 
 
