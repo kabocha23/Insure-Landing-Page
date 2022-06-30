@@ -10,6 +10,7 @@ const Body = () => {
 
     return(
         <div className='body-container'>
+            {/* intro section 'humanizing' text and photo of family */}
             <div className='body-intro'>
                 <div className='body-intro-sub'>
                     <div className='body-intro-text'>
@@ -23,7 +24,9 @@ const Body = () => {
                     </div>                    
                 </div>
             </div>
+            {/* selling point section */}
             <div className='body-different'>
+                <hr></hr>
                 <h1>We're different</h1>
                 <div className='body-different-sub'>
                     <div className='body-different-pros'>
@@ -43,12 +46,13 @@ const Body = () => {
                     </div>
                 </div>
             </div>
+            {/* find out more section  */}
             <div className='body-find-out'>
                 <div className='body-find-out-text'>
                     <p>Find out more about how we work</p>
                 </div>
                 <div className='body-find-out-btn'>
-                    <button><a href='#'>HOW WE WORK</a></button>
+                    <a href='#'><span>HOW WE WORK</span></a>
                 </div>
             </div>
         </div>

@@ -21,16 +21,17 @@
     flex-flow: column nowrap;
     height: 300px;
     width: 45%;
-    font-family: 'DM Serif Display', serif;
     color: hsl(0, 0%, 98%);
 }
 .body-intro-text hr {
     width: 100px;
+    margin-top: 0;
     margin-left: 0;
     margin-bottom: 40px;
 }
 .body-intro-text h1 {
     font-size: 60px;
+    font-family: 'DM Serif Display', serif;
     font-weight: normal;
     margin-top: 0px;
     margin-bottom: 10px;
@@ -85,11 +86,27 @@
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-    height: 350px;
+    margin-bottom: 100px;
+}
+.body-different hr {
+    width: 100px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 40px;
+    background-color: hsl(273, 4%, 51%);
+}
+.body-different h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 75px;
+    line-height: 60px;
 }
 .body-different-sub {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 .body-different-sub {
     display: flex;
@@ -98,9 +115,20 @@
 .body-different-pros {
     width: 30%;
 }
+.body-different-pros h2 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+}
+.body-different-pros p {
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    color: hsl(273, 4%, 51%);
+}
 
 
 .body-find-out {
+    display: flex;
+    flex-flow: row wrap;
     height: 250px;
     width: 80%;
     max-width: 1280px;
@@ -108,4 +136,49 @@
     margin-right: auto;
     margin-bottom: 100px;
     background-color: hsl(256, 26%, 20%);
+}
+.body-find-out-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    font-family: 'DM Serif Display', serif;
+    font-size: 60px;
+    font-weight: normal;
+    color: hsl(0, 0%, 98%);
+    margin-left: auto;
+    margin-right: auto;
+}
+.body-find-out-text p {
+    margin: 0;
+}
+.body-find-out-btn {
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.body-find-out-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    padding: 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid hsl(0, 0%, 98%);
+    cursor: pointer;
+}
+.body-find-out-btn a:hover {
+    background-color: hsl(0, 0%, 98%);
+    transition: background-color 0.4s ease-in-out;
+    color: hsl(256, 26%, 20%);
+    transition: color 0.4s ease-in-out;
+    font-weight: bold;
 }
