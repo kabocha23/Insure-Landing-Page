@@ -2,8 +2,8 @@
 .body-intro {
     display: flex;
     flex-flow: row wrap;
-    height: 450px;
-    margin-bottom: 350px;
+    height: 500px;
+    margin-bottom: 300px;
     background-color: hsl(256, 26%, 20%);
 }
 
@@ -20,46 +20,65 @@
     display: flex;
     flex-flow: column nowrap;
     height: 300px;
-    width: 50%;
+    width: 45%;
     font-family: 'DM Serif Display', serif;
     color: hsl(0, 0%, 98%);
 }
+.body-intro-text hr {
+    width: 100px;
+    margin-left: 0;
+    margin-bottom: 40px;
+}
 .body-intro-text h1 {
-    font-size: 50px;
+    font-size: 60px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    line-height: 60px;
 }
-.body-intro-img {
-    display: flex;
-    width: 50%;
+.body-intro-text p {
+    font-family: 'Karla', sans-serif;
+    color: hsl(0, 0%, 98%);
+    letter-spacing: 1px;
 }
-.body-intro-img img {
-    height: 500px;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 #view-plans-btn2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30px;
     width: 100px;
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: none;;
-    color: hsl(273, 4%, 51%);
+    padding: 10px 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: hsl(0, 0%, 98%);
     font-family: 'Karla', sans-serif;
-    font-weight: bold;
+    font-weight: normal;
+    font-size: 14px;
     background-color: transparent;
-    border: 2px solid hsl(270, 9%, 17%);
+    border: 1px solid hsl(0, 0%, 98%);
     cursor: pointer;
 }
 #view-plans-btn2:hover {
-    background-color: hsl(270, 9%, 17%);
+    background-color: hsl(0, 0%, 98%);
     transition: background-color 0.4s ease-in-out;
-    color: white;
+    color: hsl(256, 26%, 20%);
     transition: color 0.4s ease-in-out;
+    font-weight: bold;
 }
 
+.body-intro-img {
+    display: flex;
+    margin-left: auto;
+    margin-right: 0;
+    width: 45%;
+}
+.body-intro-img img {
+    height: 600px;
+    margin-left: auto;
+    margin-right: 0;
+}
 
+ 
 /* 'We're different' section */
 .body-different {
     width: 80%;

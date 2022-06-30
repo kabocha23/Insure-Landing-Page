@@ -17,30 +17,38 @@ const Footer = () => {
                 </div>
                 <div className='footer-body'>
                     <div className='footer-body-sub'>
-                        <p>OUR COMPANY</p>
-                        <p>HOW WE WORK</p>
-                        <p>WHY INSURE?</p>
-                        <p>VIEW PLANS</p>
-                        <p>REVIEWS</p>
+                        <ul>
+                            <li><a href='#'>OUR COMPANY</a></li>
+                            <li><a href='#'>HOW WE WORK</a></li>
+                            <li><a href='#'>WHY INSURE?</a></li>
+                            <li><a href='#'>VIEW PLANS</a></li>
+                            <li><a href='#'>REVIEWS</a> </li>                           
+                        </ul>
                     </div>
                     <div className='footer-body-sub'>
-                        <p>Help ME</p>
-                        <p>FAQ</p>
-                        <p>TERMS OF USE</p>
-                        <p>PRIVACY POLICY</p>
-                        <p>COOKIES</p>
+                        <ul>
+                            <li><a href='#'>HELP ME</a></li>
+                            <li><a href='#'>FAQ</a></li>
+                            <li><a href='#'>TERMS OF USE</a></li>
+                            <li><a href='#'>PRIVACY POLICY</a></li>
+                            <li><a href='#'>COOKIES</a> </li>                           
+                        </ul>
                     </div>
                     <div className='footer-body-sub'>
-                        <p>CONTACT</p>
-                        <p>SALES</p>
-                        <p>SUPPORT</p>
-                        <p>LIVE CHAT</p>
+                        <ul>
+                            <li><a href='#'>CONTACT</a></li>
+                            <li><a href='#'>SALES</a></li>
+                            <li><a href='#'>SUPPORT</a></li>
+                            <li><a href='#'>LIVE CHAT</a></li>                         
+                        </ul>
                     </div>
                     <div className='footer-body-sub'>
-                        <p>OTHER</p>
-                        <p>CAREERS</p>
-                        <p>PRESS</p>
-                        <p>LICENSES</p>
+                        <ul>
+                            <li><a href='#'>OTHER</a></li>
+                            <li><a href='#'>CAREERS</a></li>
+                            <li><a href='#'>PRESS</a></li>
+                            <li><a href='#'>LICENSES</a></li>                         
+                        </ul>
                     </div>
                 </div>
             </div>
