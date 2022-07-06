@@ -13,6 +13,16 @@
     display: flex;
     flex-flow: row wrap;
 }
+.footer-header-brand {
+    width: 50%;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+.footer-header-contacts {
+    width: 20%;
+    margin-left: auto;
+    justify-content: space-evenly;
+}
 
 .footer-body {
     display: flex;
@@ -24,4 +34,7 @@
 }
 .footer-body-sub ul {
     list-style-type: none;
+}
+.footer-body-sub ul li a {
+    text-decoration: none;
 }

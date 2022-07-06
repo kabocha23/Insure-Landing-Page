@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import FbIcon from '../../images/icon-facebook.svg'
+import TwIcon from '../../images/icon-twitter.svg'
+import PiIcon from '../../images/icon-pinterest.svg'
+import IgIcon from '../../images/icon-instagram.svg'
 import './Footer.css';
 
 const Footer = () => {
@@ -12,9 +16,13 @@ const Footer = () => {
                         INSURE
                     </div>
                     <div className='footer-header-contacts'>
-                        FB TW PI IG
+                        <img src={FbIcon} alt='facebook-icon'/>
+                        <img src={TwIcon} alt='twitter-icon'/>
+                        <img src={PiIcon} alt='pinterest-icon'/>
+                        <img src={IgIcon} alt='instagram-icon'/>
                     </div>
                 </div>
+                <hr></hr>
                 <div className='footer-body'>
                     <div className='footer-body-sub'>
                         <ul>
