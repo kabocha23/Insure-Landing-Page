@@ -125,7 +125,7 @@
     color: hsl(273, 4%, 51%);
 }
 
-
+/* box starting with Find out more... */
 .body-find-out {
     display: flex;
     flex-flow: row wrap;
@@ -144,7 +144,7 @@
     height: 100%;
     width: 50%;
     font-family: 'DM Serif Display', serif;
-    font-size: 60px;
+    font-size: 3.5em;
     font-weight: normal;
     color: hsl(0, 0%, 98%);
     margin-left: auto;
