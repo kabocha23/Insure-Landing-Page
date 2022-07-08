@@ -1,4 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
+import leftDesign from '../../images/bg-pattern-intro-left-desktop.svg'
+import rightDesign from '../../images/bg-pattern-intro-right-desktop.svg'
 import familyImg from '../../images/image-intro-desktop.jpg'
 import boltIcon from '../../images/icon-snappy-process.svg'
 import cashIcon from '../../images/icon-affordable-prices.svg'
@@ -12,6 +14,8 @@ const Body = () => {
         <div className='body-container'>
             {/* intro section 'humanizing' text and photo of family */}
             <div className='body-intro'>
+                <img src={leftDesign} alt='intro-left-overlay' id='intro-left-overlay'></img>
+                <img src={rightDesign} alt='intro-right-overlay' id='intro-right-overlay'></img>
                 <div className='body-intro-sub'>
                     <div className='body-intro-text'>
                         <hr></hr>
@@ -20,7 +24,7 @@ const Body = () => {
                         <a href='#' id='view-plans-btn2'><span>VIEW PLANS</span></a>
                     </div>
                     <div className='body-intro-img'>
-                        <img src={familyImg}></img>
+                        <img src={familyImg} alt='intro-family'></img>
                     </div>                    
                 </div>
             </div>
@@ -30,17 +34,17 @@ const Body = () => {
                 <h1>We're different</h1>
                 <div className='body-different-sub'>
                     <div className='body-different-pros'>
-                        <img src={boltIcon}></img>
+                        <img src={boltIcon} alt='snappy-process'></img>
                         <h2>Snappy Process</h2>
                         <p>Our application process can be completed in minutes, not hours. Don't get stuck filling in tedious forms.</p>
                     </div>
                     <div className='body-different-pros'>
-                        <img src={cashIcon}></img>
+                        <img src={cashIcon} alt='affordable-prices'></img>
                         <h2>Affordable Prices</h2>
                         <p>We don't want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
                     </div>
                     <div className='body-different-pros'>
-                        <img src={personIcon}></img>
+                        <img src={personIcon} alt='people-first'></img>
                         <h2>People First</h2>
                         <p>Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when you need it.</p>
                     </div>
