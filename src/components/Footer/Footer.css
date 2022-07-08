@@ -4,7 +4,7 @@
 }
 
 .footer-content {
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -12,8 +12,7 @@
 .footer-header {
     display: flex;
     flex-flow: row wrap;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
 }
 .footer-header-brand {
     width: 50%;
@@ -25,7 +24,7 @@
     justify-content: space-evenly;
 }
 .footer-header-contacts a {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 .footer-header-contacts a:hover {
     filter: contrast(175%) brightness(3%);
