@@ -5,6 +5,7 @@
     margin-top: 0px;
     border-bottom: 1px solid hsl(0, 0%, 80%);
     font-size: 75%;
+    z-index: 1000;
 }
 
 .navbar-sub {
@@ -121,6 +122,7 @@
     }
     .nav-menu {
         display: block;
+        z-index: 1000;
     }
     .nav-menu ul {
         display: flex;
@@ -151,9 +153,13 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .nav-menu li:hover {
-        transition: background-color 0.4s ease-in-out;
-        background-color: hsl(25, 100%, 90%);
+    .nav-menu li a:hover {
+        text-decoration: underline;
+    }
+    #view-plans-btn {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
     .nav-menu ul {
         /* display: none; */

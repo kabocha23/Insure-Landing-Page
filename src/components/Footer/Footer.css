@@ -5,6 +5,7 @@
 
 .footer-content {
     width: 90%;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -19,11 +20,13 @@
     margin-right: auto;
 }
 .footer-header-contacts {
-    width: 20%;
+    display: flex;
+    width: 50%;
     margin-left: auto;
-    justify-content: space-evenly;
+    justify-content: end;
 }
 .footer-header-contacts a {
+    margin-left: 20px;
     margin-right: 20px;
 }
 .footer-header-contacts a:hover {

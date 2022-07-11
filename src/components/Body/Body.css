@@ -4,6 +4,7 @@
     flex-flow: row wrap;
     position: relative;
     height: 600px;
+    min-width: 1280px;
     margin-bottom: 300px;
     background-color: hsl(256, 26%, 20%);
 }
@@ -96,7 +97,7 @@
  
 /* 'We're different' section */
 .body-different {
-    width: 80%;
+    width: 90%;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
@@ -143,8 +144,8 @@
 .body-find-out {
     display: flex;
     flex-flow: row wrap;
-    height: 250px;
-    width: 80%;
+    min-height: 250px;
+    width: 90%;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
@@ -155,12 +156,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     width: 50%;
     font-family: 'DM Serif Display', serif;
     font-size: 3.5em;
     font-weight: normal;
     color: hsl(0, 0%, 98%);
+    margin-top: auto;
+    margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
 }
@@ -169,6 +171,7 @@
 }
 .body-find-out-btn {
     width: 30%;
+    /* min-width: */
     margin-top: auto;
     margin-bottom: auto;
 }

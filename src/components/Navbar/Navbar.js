@@ -18,7 +18,7 @@ const Navbar = () => {
                     <li><a href='#'>HOW WE WORK</a></li>
                     <li><a href='#'>BLOG</a></li>
                     <li><a href='#'>ACCOUNT</a></li>
-                    <li><a href='#'>VIEW PLANS</a></li>                   
+                    <li><a href='#' id='view-plans-btn'>VIEW PLANS</a></li>                   
                 </ul>
             </div>
             <div className='navbar-sub'>
