@@ -175,7 +175,6 @@
 }
 .body-find-out-btn {
     width: 30%;
-    /* min-width: */
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -209,11 +208,12 @@
         background-color: hsl(0, 0%, 98%);
     }
     #intro-left-overlay {
-        height: 80%;
+        top: 150%;
+        height: 50%;
     }
     #intro-right-overlay {
         top: 100%;
-        height: 80%;
+        height: 50%;
     }
     
     .body-intro-sub {
@@ -222,21 +222,23 @@
         margin-top: 0; 
     }
     .body-intro-text {
-        display: block;
         background-color: hsl(256, 26%, 20%);
         width: 100%;
-        height: 20%;
+        height: 30em;
+        margin-top: auto;
+        margin-bottom: auto;
     }
     .body-intro-img {
         width: 100%;
-        /* height: 100%; */
         margin-left: 0px;
         margin-right: 0px;
-        z-index: 1000;
     }
     .body-intro-img img {
         max-width: 641px;
+        height: 100%;
+        min-width: 0px;
         margin-left: auto;
         margin-right: auto;
+        z-index: 1000;
     }
 }
