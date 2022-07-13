@@ -11,7 +11,7 @@
 .navbar-sub {
     display: flex;
     width: 90%;
-    max-width: 1280px;
+    max-width: 1281px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -25,6 +25,7 @@
     height: 100%; 
     width: 20%;
     min-width: 210px;
+    z-index: 1000;
 }
 .navbar-brand img {
     cursor: pointer;
@@ -184,22 +185,6 @@
 
     .toggle-button button {
         right: 20px;
-    }
-    .navbar-brand {
-        height: 100%;
-        min-width: 120px;
-    }
-    .navbar-brand img {
-        cursor: pointer;
-        height: 25%;
-        margin-top: auto;
-        margin-left: 20px;
-        margin-bottom: auto;
-        position: absolute;
-        top: 0px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
     }
 
     /* nav sidebar menu */
