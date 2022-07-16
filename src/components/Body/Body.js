@@ -28,7 +28,7 @@ const Body = () => {
                     </div>                    
                 </div>
             </div>
-            {/* selling point section */}
+            {/* We're Different section */}
             <div className='body-different'>
                 <hr></hr>
                 <h1>We're different</h1>
