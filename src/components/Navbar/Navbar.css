@@ -42,7 +42,7 @@
     display: none;
 }
 
-/* navbar menu not collapsed */
+/* navbar menu expanded */
 .nav-menu-fs {
     height: 100%;
     width: 50%;
@@ -128,7 +128,7 @@
     .nav-menu ul {
         display: flex;
         padding: 0;
-        margin-top: 0px;
+        /* margin-top: 0px; */
         position: absolute;
         top: 60px;
         left: 0;

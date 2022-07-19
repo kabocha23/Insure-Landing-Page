@@ -2,13 +2,8 @@ import React, { useState } from 'react';
 import brandLogo from '../../images/logo-insure.svg';
 import './Navbar.css';
 
-const Navbar = () => {
+const Navbar = ({toggleIsNav, isNavExpanded}) => {
 
-    const [isNavExpanded, setIsNavExpanded] = useState(false);
-
-    const toggleIsNav = () => {
-        setIsNavExpanded(!isNavExpanded)
-    }
 
 
     return(
