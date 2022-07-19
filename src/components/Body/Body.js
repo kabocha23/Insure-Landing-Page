@@ -1,10 +1,12 @@
 import React from 'react';
-import leftDesign from '../../images/bg-pattern-intro-left-desktop.svg'
-import rightDesign from '../../images/bg-pattern-intro-right-desktop.svg'
+import introLeftOverlay from '../../images/bg-pattern-intro-left-desktop.svg'
+import introRightOverlay from '../../images/bg-pattern-intro-right-desktop.svg'
 import familyImg from '../../images/image-intro-desktop.jpg'
 import boltIcon from '../../images/icon-snappy-process.svg'
 import cashIcon from '../../images/icon-affordable-prices.svg'
 import personIcon from '../../images/icon-people-first.svg'
+import foDtOverlay from '../../images/bg-pattern-how-we-work-desktop.svg'
+import foMbOverlay from '../../images/bg-pattern-how-we-work-mobile.svg'
 import './Body.css';
 
 const Body = () => {
@@ -14,8 +16,8 @@ const Body = () => {
         <div className='body-container'>
             {/* intro section 'humanizing' text and photo of family */}
             <div className='body-intro'>
-                <img src={leftDesign} alt='intro-left-overlay' id='intro-left-overlay'></img>
-                <img src={rightDesign} alt='intro-right-overlay' id='intro-right-overlay'></img>
+                <img src={introLeftOverlay} alt='intro-left-overlay' id='intro-left-overlay'></img>
+                <img src={introRightOverlay} alt='intro-right-overlay' id='intro-right-overlay'></img>
                 <div className='body-intro-sub'>
                     <div className='body-intro-text'>
                         <hr></hr>
@@ -52,7 +54,8 @@ const Body = () => {
             </div>
             {/* find out more section  */}
             <div className='body-find-out'>
-            <img src={rightDesign} alt='intro-right-overlay' id='find-out-right-overlay'></img>
+                <img src={foDtOverlay} alt='find-out-desktop-overlay' id='find-out-desktop-overlay'></img>
+                <img src={foMbOverlay} alt='find-out-mobile-overlay' id='find-out-mobile-overlay'></img>
                 <div className='body-find-out-text'>
                     <p>Find out more about how we work</p>
                 </div>

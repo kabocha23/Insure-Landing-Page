@@ -176,6 +176,7 @@
     width: 30%;
     margin-top: auto;
     margin-bottom: auto;
+    z-index: 11;
 }
 .body-find-out-btn a {
     display: flex;
@@ -201,7 +202,22 @@
     transition: color 0.4s ease-in-out;
     font-weight: bold;
 }
+#find-out-mobile-overlay {
+    display: none;
+}
+#find-out-desktop-overlay{
+    display: flex;
+    position: absolute;
+    right: 4vw;
+    z-index: 10;
+}
 
+
+@media (max-width: 900px) {
+    .body-find-out-text p {
+        font-size: 0.8em;
+    }
+}
 
 @media (max-width: 641px) {
     .body-intro {
@@ -271,6 +287,7 @@
     }
 
 
+    /* 'We're different' section */
     .body-different hr {
         display: none;
     }
@@ -293,14 +310,15 @@
         margin-bottom: 5%;
     }
 
+
     /* box starting with Find out more... */
     .body-find-out {
         width: 100%;
     }
     .body-find-out-text {
-        width: 100%;
+        width: 90%;
         text-align: center;
-        font-size: 3em;
+        font-size: 4em;
         margin-top: 1em;
         margin-left: auto;
         margin-right: auto;
@@ -313,9 +331,12 @@
         width: 10em;
         padding: 0;
     }
-    #find-out-right-overlay {
+    #find-out-desktop-overlay{
+        display: none;
+    }
+    #find-out-mobile-overlay {
+        display: flex;
         position: absolute;
         right: 0;
-        width: 15em;
     }
 }

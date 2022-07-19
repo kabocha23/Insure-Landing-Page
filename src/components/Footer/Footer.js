@@ -4,6 +4,8 @@ import FbIcon from '../../images/icon-facebook.svg'
 import TwIcon from '../../images/icon-twitter.svg'
 import PiIcon from '../../images/icon-pinterest.svg'
 import IgIcon from '../../images/icon-instagram.svg'
+import ftDtOverlay from '../../images/bg-pattern-footer-desktop.svg'
+import ftMbOverlay from '../../images/bg-pattern-footer-mobile.svg'
 import './Footer.css';
 
 const Footer = () => {
@@ -11,6 +13,8 @@ const Footer = () => {
 
     return(
         <div className='footer-container'>
+                <img src={ftDtOverlay} alt='footer-desktop-overlay' id='footer-desktop-overlay'></img>
+                <img src={ftMbOverlay} alt='footer-mobile-overlay' id='footer-mobile-overlay'></img>
             <div className='footer-content'>
                 <div className='footer-header'>
                     <div className='footer-header-brand'>
