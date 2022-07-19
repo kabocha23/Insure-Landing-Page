@@ -10,10 +10,10 @@ const Navbar = ({toggleIsNav, isNavExpanded}) => {
         <div className='navbar-container'>
             <div className={isNavExpanded ? 'nav-menu expanded' : 'nav-menu'}>
                 <ul>
-                    <li><a href='#'>HOW WE WORK</a></li>
-                    <li><a href='#'>BLOG</a></li>
-                    <li><a href='#'>ACCOUNT</a></li>
-                    <li><a href='#' id='view-plans-btn'>VIEW PLANS</a></li>                   
+                    <li><a>HOW WE WORK</a></li>
+                    <li><a>BLOG</a></li>
+                    <li><a>ACCOUNT</a></li>
+                    <li><a id='view-plans-btn'>VIEW PLANS</a></li>                   
                 </ul>
             </div>
             <div className='navbar-sub'>
@@ -22,10 +22,10 @@ const Navbar = ({toggleIsNav, isNavExpanded}) => {
                 </div>
                 <div className='nav-menu-fs'>
                     <div className='nav-menu-fs-sub'>
-                        <a href='#'>HOW WE WORK</a>
-                        <a href='#'>BLOG</a>
-                        <a href='#'>ACCOUNT</a>
-                        <a href='#' id='view-plans-btn'><span>VIEW PLANS</span></a>
+                        <a>HOW WE WORK</a>
+                        <a>BLOG</a>
+                        <a>ACCOUNT</a>
+                        <a id='view-plans-btn'><span>VIEW PLANS</span></a>
                     </div>                
                 </div>
                 <div className='toggle-button'>

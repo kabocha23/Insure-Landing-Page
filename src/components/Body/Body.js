@@ -21,7 +21,7 @@ const Body = () => {
                         <hr></hr>
                         <h1>Humanizing your insurance.</h1>
                         <p>Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that's right for you. Ensure you and your loved ones are protected.</p>
-                        <a href='#' id='view-plans-btn2'><span>VIEW PLANS</span></a>
+                        <a id='view-plans-btn2'><span>VIEW PLANS</span></a>
                     </div>
                     <div className='body-intro-img'>
                         <img src={familyImg} alt='intro-family'></img>
@@ -52,11 +52,12 @@ const Body = () => {
             </div>
             {/* find out more section  */}
             <div className='body-find-out'>
+            <img src={rightDesign} alt='intro-right-overlay' id='find-out-right-overlay'></img>
                 <div className='body-find-out-text'>
                     <p>Find out more about how we work</p>
                 </div>
                 <div className='body-find-out-btn'>
-                    <a href='#'><span>HOW WE WORK</span></a>
+                    <a><span>HOW WE WORK</span></a>
                 </div>
             </div>
         </div>
