@@ -23,7 +23,7 @@
     display: flex;
     width: 50%;
     margin-left: auto;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .footer-header-contacts a {
     margin-left: 20px;

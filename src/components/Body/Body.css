@@ -35,7 +35,7 @@
     flex-flow: column nowrap;
     height: 300px;
     width: 50%;
-    min-width: 415px;
+    min-width: 350px;
     margin-right: 5%;
     color: hsl(0, 0%, 98%);
 }
@@ -90,7 +90,6 @@
     width: 45%;
 }
 .body-intro-img img {
-    height: 100%;
     width: 100%;
     max-width: 500px;
     min-width: 420px;
@@ -202,6 +201,7 @@
     transition: color 0.4s ease-in-out;
     font-weight: bold;
 }
+
 
 @media (max-width: 641px) {
     .body-intro {
