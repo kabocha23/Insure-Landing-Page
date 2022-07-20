@@ -1,4 +1,6 @@
-A responsive product page web and mobile design for a fictional insurance company. 
+A responsive product page web and mobile design for a fictional insurance company. No libraries imported for this project.
+
+Please view the hosted site here!~ https://kabocha23.github.io/Insure-Landing-Page/
 
 ![Desktop preview](https://github.com/kabocha23/Insure-Landing-Page/blob/main/insure-preview-1.png)
 
