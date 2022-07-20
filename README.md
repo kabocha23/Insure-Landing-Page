@@ -1,4 +1,4 @@
-A fully responsive landing page for a fictional insurance company. 
+A responsive product page web and mobile design for a fictional insurance company. 
 
 ![Desktop preview](https://github.com/kabocha23/Insure-Landing-Page/blob/main/insure-preview-1.png)
 
