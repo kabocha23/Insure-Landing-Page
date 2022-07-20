@@ -4,13 +4,13 @@
     flex-flow: row wrap;
     position: relative;
     height: 600px;
-    margin-bottom: 300px;
+    margin-bottom: 10em;
     background-color: hsl(256, 26%, 20%);
 }
 
 #intro-left-overlay {
     position: absolute;
-    top: 450px;
+    top: 25em;
     left: 0;
     height: 90%;
 }
@@ -85,16 +85,12 @@
 
 .body-intro-img {
     display: flex;
-    margin-left: auto;
-    margin-right: 0;
-    width: 45%;
+    width: 50%;
 }
 .body-intro-img img {
-    width: 100%;
     max-width: 500px;
     min-width: 420px;
     margin-left: auto;
-    margin-right: 0;
 }
 
  
@@ -213,7 +209,7 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 961px) {
     .body-find-out-text p {
         font-size: 0.8em;
     }

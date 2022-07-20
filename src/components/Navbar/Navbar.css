@@ -90,7 +90,7 @@
 
 
 
-@media (max-width: 900px) {
+@media (max-width: 641px) {
     .toggle-button {
         display: flex;
         align-items: center;
@@ -177,7 +177,7 @@
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 641px) {
     .navbar-container {
         display: flex;
         height: 75px;
